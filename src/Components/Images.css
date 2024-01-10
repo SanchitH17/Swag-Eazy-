@@ -1,0 +1,20 @@
+.images-container {
+  margin-top: 50px;
+}
+
+.image-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 32px; 
+  margin: auto;
+  width: 63%; /* Adjust the width as needed */
+}
+
+.image-box img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgba(166, 156, 156, 0.714);
+  margin-top: 40px;
+  border-radius: 8px;
+  width: 100%; 
+ 
+}

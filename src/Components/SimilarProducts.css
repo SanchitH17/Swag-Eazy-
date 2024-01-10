@@ -1,0 +1,37 @@
+.TOP{
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#heading{
+   margin-bottom: 40px;
+    font-size: 32px;;
+    font-weight: 700;
+}
+
+.similar-image-box {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+  }
+  
+  .container-img {
+    text-align: left;
+  }
+
+  .container-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #f0f0f0;
+  }
+  h3{
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+ }

@@ -1,0 +1,112 @@
+    .container {
+        display: flex;
+        margin-bottom: 50px;
+      }
+      .container img {
+        
+        width: 50%; 
+        height:  105vh;
+        background-color: #f0f0f0;
+      }
+      .content {
+        width: 80%;
+        margin-top: 15px;
+        margin-left: 60px;
+      
+      }
+      .ultypes ul{
+        width: 95%;
+        margin: auto;
+        margin-left: 40px;
+        padding: 0;
+        margin-top: 10px;
+        gap: 3x;
+      }
+      .product-path {
+        color: rgb(192, 187, 187);
+    
+      }
+      .product-category {
+        color: #0000ff; 
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    .content p {
+        margin-top: 10px;
+        width: 60%; 
+      }
+    .price-list {
+        font-weight: bold;
+        font-size: 25px;
+      }
+    .price-list span{
+        color: palevioletred;
+        font-size: 15px;
+      }
+    
+      .color-checkbox {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        display: inline-block;
+      }
+      
+      .color-checkbox input {
+        align-items: center;
+        opacity: 100;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+      }
+      
+      .black {
+        border-radius: 6px;
+        background-color: #000;
+      }
+      
+      .white {
+        border-radius: 6px;
+        background-color: #fff;
+      }
+      
+      .green {
+        border-radius: 6px;
+        background-color: #00ff00;
+      }
+      
+      .blue {
+        border-radius: 6px;
+        background-color: #0000ff;
+      }
+      
+      .red {
+        border-radius: 6px; 
+        background-color: #ff0000;
+      }
+      .color-checkboxes {
+        display: flex;
+      }
+      .price-lists{
+        display: grid;
+        grid-template-columns: repeat(2, 0.2fr);
+      }
+    
+      .price-lists ul {
+        gap: 5px; 
+        list-style: none; 
+      }
+      
+      .price-lists li {
+        color: black;
+        font-size: 16px;
+      }
+    .orange-icon{
+      color: orange;
+    }
+    li::marker{
+      color: orange;
+    }
+   

@@ -1,0 +1,26 @@
+.description-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 85%;
+  margin: auto;
+}
+
+.description-content {
+  width: 80%;
+  align-items: flex-start;
+}
+.btn {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-evenly;
+}
+
+.add-to-cart {
+  background: #D7458F;
+  border-radius: 100px;
+  color: #fff;
+  padding: 15px 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}

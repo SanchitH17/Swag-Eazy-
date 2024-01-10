@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faBars, faGear, faFloppyDisk, faCircle } from '@fortawesome/free-solid-svg-icons';
-import { Avatar, Wrap, WrapItem, Checkbox, Stack, Button, Divider, Text, Box } from '@chakra-ui/react';
+import { Avatar, Wrap, WrapItem, Checkbox, Stack, Button, Divider, Text, Box ,AbsoluteCenter} from '@chakra-ui/react';
 import Logo from "../Assests/logo-black-2.png"
 import chat from "../Assests/download.png"
 import './Mobile.css';
@@ -14,7 +14,7 @@ const Mobile = () => {
   };
 
   return (
-    <div>
+    <div >
       <div className='phone-nav'>
         <FontAwesomeIcon icon={faBars} className="fa-bars" />
 
@@ -62,7 +62,7 @@ const Mobile = () => {
       <Divider color={'grey'} border={'1px black grey'} w={"60%"} mt={5} />
       <div className='ultypes'>
         <p><FontAwesomeIcon icon={faCircle} className="orange-icon"/> The more you order, the more you save</p>
-        <ul type="bullets" className="price-lists">
+        <ul type="bullets" className="price-listing">
           <li>50-150$</li>
           <li>500-60$</li>
           <li>100-100$</li>
@@ -70,23 +70,35 @@ const Mobile = () => {
           <li>200-80$</li>
         </ul>
       </div>
-
+    
       <Divider color={'grey'} border={'1px black grey'} w={'60%'} mt={10} />
       <div className='text-2'>
-        <Text><FontAwesomeIcon icon={faGear}/> Order will only start <b>manufacturing once you provide the size details</b> which can be done in a later step</Text>
-      </div>
-      <Text><FontAwesomeIcon icon={faFloppyDisk}/> We will send you digital mockups for your approval <b>within 24 hrs</b></Text>
-
+      <Stack direction='row' h='100px' p={0} borderRadius={6}>
+  <Divider orientation='vertical' />
+        <Text mb={5}><FontAwesomeIcon className='text-ixon' icon={faGear}/> Order will only start <b>manufacturing once you provide the size details</b> which can be done in a later step</Text>
+     </Stack> </div>
+     <Stack direction='row' h='100px' p={0} borderRadius={6}>
+  <Divider orientation='vertical' />
+      <Text mb={0}><FontAwesomeIcon className='text-ixon'icon={faFloppyDisk}/> We will send you digital mockups for your approval <b>within 24 hrs</b></Text>
+      </Stack>
       <Divider color={'grey'} border={'1px black grey'} w={'60%'} />
-      <Box mt={5} mb={10}>
-        <Text>
+      <Stack direction='row' h='100px' p={0}>
+  <Divider orientation='vertical' />
+  
+      <Box mt={0} mb={0}>
+      <Stack direction='row' h='100px' p={0} borderRadius={6}>
+  <Divider orientation='vertical' />
+        <Text mt={-6} mb={2}>
           Fashion is a young and bold fashion brand, which brings to you the latest trends in mens fashion. We
           aspire to epitomize and bring the right balance between style and comfort in our products.
-        </Text>
-        <Button colorScheme="pink" variant="link" mt={3}>
+        </Text> </Stack>
+        
+        <Button colorScheme="pink" variant="link">
           Read More
-        </Button>
-      </Box>
+        </Button> 
+      </Box> </Stack>
+      
+  
       <div className="image-boxes">
         <img src='https://procureasystorage.blob.core.windows.net/swageazyproducts/Marks-and-spencer-Hoodie-A_1703592402117' alt='Product 1' />
         <img src='https://procureasystorage.blob.core.windows.net/swageazyproducts/Marks-and-spencer-Hoodie-B_1703592409743' alt='Product 2' />
